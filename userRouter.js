@@ -12,7 +12,8 @@ app.get('./users',(req,res)=>{
         messeage:"Fetched all data",
         user:user
     })
-})
+});
+module.exports = routes
 
 
 

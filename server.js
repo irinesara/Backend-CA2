@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
+const routes = ('./userRouter')
 
 const PORT = 8080;
+app.use('routes');
 
 app.listen(PORT,async()=>{
     try{
